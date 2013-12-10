@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+      <TextView
+        android:id="@+id/text_empty_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/main_text_list_is_empty"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+      
+      
+    
+    <RelativeLayout
+        android:id="@+id/filter_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/filter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/clear_filter"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/clear_filter"
+            android:gravity="center_vertical"
+            android:text="Completed Tasks"
+            tools:ignore="HardcodedText" />
+
+        <ImageButton
+            android:id="@+id/clear_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/abc_list_selector_holo_light"
+            android:src="@drawable/ic_action_content_remove" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_tasks"
+        android:cacheColorHint="@android:color/transparent"
+        android:fastScrollEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/filter_info"
+        android:layout_alignParentTop="true" >
+    </ListView>
+
+  
+
+</RelativeLayout>

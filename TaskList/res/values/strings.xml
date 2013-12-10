@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <!--  common messages  -->
+    <string name="app_name" >Task List</string>
+    
+    <string name="err_not_implemented">Not implemented!</string>
+    
+    <string name="priority_low">Low</string>
+    <string name="priority_normal">Normal</string>
+    <string name="priority_high">High</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    
+    <!--  Main Activity -->
+    <string name="main_menu_add_task">Add Task</string>
+    <string name="main_menu_sort_by">Sort by...</string>
+    <string name="main_menu_sort_by_due_asc">Due date, ascending</string>
+    <string name="main_menu_sort_by_due_desc">Due date, descending</string>
+    <string name="main_menu_sort_by_created_asc">Created date, ascending</string>
+    <string name="main_menu_sort_by_created_desc">Created date, descending</string>
+    <string name="main_menu_sort_by_prio_asc">Priority, ascending</string>
+    <string name="main_menu_sort_by_prio_desc">Priority, descending</string>
+    <string name="main_menu_filter">Filter...</string>
+    <string name="main_menu_filter_completed">Completed Tasks</string>
+    <string name="main_menu_filter_uncompleted">Uncompleted Tasks</string>
+    <string name="main_menu_filter_due">Due Tasks</string>
+    <string name="main_menu_filter_show_all">Show All</string>
+    <string name="main_menu_contextual_mark_complete">Mark complete</string>
+    <string name="main_menu_contextual_delete">Delete</string>
+    <string name="main_text_list_is_empty">Your task list is empty. Please use menu or actionbar icon to add a new task</string>
+    <string name="main_text_N_items_selected">%1$s item(s) selected</string>
+    <string name="main_confirmation_delete_all_selected_tasks">Delete all selected tasks?</string>
+    <string name="main_confirmation_mark_all_selected_tasks_as_completed">Mark all selected tasks as completed?</string>
+    <string name="main_err_illegal_filter">Illegal Filter:</string>
+    <string name="main_err_illegal_sort">Illegal Sort:</string>
+    
+    <!--  EditTask Activity -->
+    <string name="edit_menu_save_changes">Save changes</string>
+    <string name="edit_menu_discard_changes">Discard changes</string>
+    <string name="edit_menu_delete_task">Delete task</string>
+    <string name="edit_title_edit">Edit Task</string>
+    <string name="edit_title_add">Add Task</string>
+    <string name="edit_date_picker_cancel">Cancel</string>
+    <string name="edit_date_picker_clear">Clear</string>
+    <string name="edit_date_picker_set">Set</string>
+    <string name="edit_date_picker_title">Set or Clear Due date</string>
+    <string name="edit_due_date_not_set">Not set</string>
+    <string name="edit_task_err_task_title_may_not_be_empty">Task title may not be empty!</string>
+    <string name="edit_task_delete_this_task">Delete this task?</string>
+    <string name="edit_task_title">Title</string>
+    <string name="edit_task_title_hint">Task Title</string>
+    <string name="edit_task_priority">Priority</string>
+    <string name="edit_task_due_date">Due Date</string>
+    <string name="edit_task_description">Description</string>
+    <string name="edit_task_description_hint">Task Description</string>
+    
+
+</resources>

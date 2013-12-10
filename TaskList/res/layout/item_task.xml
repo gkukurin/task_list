@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/priorityHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" >
+
+        <ImageView
+            android:id="@+id/imagePriorityHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_priority_high" />
+
+        <ImageView
+            android:id="@+id/imagePriorityLow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_priority_low" />
+    </FrameLayout>
+
+    <CheckBox
+        android:focusable="false"
+        android:clickable="false"
+        android:id="@+id/checkCompleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/priorityHolder"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/priorityHolder" />
+
+    <TextView
+        android:id="@+id/textTaskTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/priorityHolder"
+        android:layout_toLeftOf="@+id/checkCompleted"
+        android:layout_toRightOf="@+id/priorityHolder"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:text="Task #1 Task #1 Task #1 Task #1 Task #1 Task #1 Task #1 Task #1 Task #1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textDueDate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textTaskTitle"
+        android:layout_below="@+id/textTaskTitle"
+        android:gravity="center_vertical"
+        android:text="31/12/2013"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
